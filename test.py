@@ -1,6 +1,5 @@
-def test (message):
-    print(message)
+def test (message, name):
+    print(f"{message}{name}")
 
 name=input('enter name: ')
-print(name,end='')
-test(' salam')
+test("hello",name)
